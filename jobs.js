@@ -1,7 +1,7 @@
 /* Telehealth Hires shared listings script.
    Setup once: replace JOBS_CSV_URL with the published CSV URL for your public job-data sheet.
    Only publish public job information. Keep private employer/customer data in a separate sheet. */
-const JOBS_CSV_URL = 'PASTE_YOUR_PUBLISHED_GOOGLE_SHEET_CSV_URL_HERE';
+const JOBS_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTrneGiSYHgtx3q7dYZJF-1ddrJ8iVUjpusOPdb37Tb0lY25EWi3OSyLTfOVmHQPT4oB7uNXKLLBdSa/pub?gid=0&single=true&output=csv';
 const FEATURED_VISIBLE_COUNT = 6;
 const FEATURED_ROTATION_MS = 30000;
 let allJobs = [];
